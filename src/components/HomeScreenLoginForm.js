@@ -25,12 +25,12 @@ class HomeScreenLoginForm extends React.Component {
 
     render() {
         return (
-            <form onSubmit={(event) => this.handleSubmit(event)}>
-                <input type="text" name="username" placeholder="username" onChange={this.handleChange}/>
+            <form className='login-form' onSubmit={(event) => this.handleSubmit(event)}>
+                <input className='login-username-input' type="text" name="username" placeholder="username" onChange={this.handleChange}/>
                 <br/>
-                <input type="password" name="password" placeholder="password" onChange={this.handleChange}/>
+                <input className='login-password-input' type="password" name="password" placeholder="password" onChange={this.handleChange}/>
                 <br/>
-                <button>Sign In</button>
+                <button className='sign-in-button'>Sign In</button>
                 <br/>
             </form>
         )

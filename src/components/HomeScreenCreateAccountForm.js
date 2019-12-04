@@ -28,16 +28,16 @@ class HomeScreenCreateAccountForm extends React.Component {
     render() {
         return(
             <div>
-                <form onSubmit={(event) => this.submit(event)}>
-                        <input type="text" name="username" placeholder="username" onChange={this.updateAccountInformation}/>
+                <form className='create-account-form' onSubmit={(event) => this.submit(event)}>
+                        <input className='create-username-input' type="text" name="username" placeholder="username" onChange={this.updateAccountInformation}/>
                         <br/>
-                        <input type="password" name="password" placeholder="password" onChange={this.updateAccountInformation}/>
+                        <input className='create-password-input'  type="password" name="password" placeholder="password" onChange={this.updateAccountInformation}/>
                         <br/>
-                        <input type="text" name="firstName" placeholder="firstName" onChange={this.updateAccountInformation}/>
+                        <input className='create-first-name-input' type="text" name="firstName" placeholder="firstName" onChange={this.updateAccountInformation}/>
                         <br/>
-                        <input type="text" name="lastName" placeholder="lastName" onChange={this.updateAccountInformation}/>
+                        <input className='create-last-name-input' type="text" name="lastName" placeholder="lastName" onChange={this.updateAccountInformation}/>
                         <br/>
-                        <button>Create Account</button>
+                        <button className='create-account-button'>Create Account</button>
                 </form>
             </div>
         )

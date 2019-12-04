@@ -2,6 +2,7 @@ import React from 'react'
 import HomeScreenHeader from "../components/HomeScreenHeader";
 import HomeScreenLoginForm from "../components/HomeScreenLoginForm";
 import HomeScreenCreateAccountForm from "../components/HomeScreenCreateAccountForm";
+import '../HomeScreenContainer.css'
 
 class HomeScreenContainer extends React.Component {
 
@@ -15,12 +16,14 @@ class HomeScreenContainer extends React.Component {
 
     render() {
         return(
-            <div>
+            <body>
                 <HomeScreenHeader/>
-                <h3> Chef's Plate's at Your Dining Table</h3>
+                <div className='everything-below-header'>
+                <p className='slogan'> Chef's Plate's at Your Dining Table</p>
                 <HomeScreenLoginForm confirmLogin={this.confirmLogin}/>
                 <HomeScreenCreateAccountForm createAccount={this.createAccount} />
-            </div>
+                </div>
+            </body>
         )
     }
 

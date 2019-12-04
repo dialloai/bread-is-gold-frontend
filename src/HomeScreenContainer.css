@@ -1,0 +1,107 @@
+body{
+    background-image: url("https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/crop_3_2/public/original_01-Massimo-Bottura-Caesar-Salad-in-Bloom.jpg?itok=hQ4vrptl");
+    background-size: 130% 120%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.home-screen-header-div{
+    background: #F5F2EA;
+    border: 1px solid #979797;
+}
+
+.slogan{
+    font-family: Skia-Regular;
+    font-size: 27px;
+    color: rgba(16,16,16,0.73);
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.home-screen-header{
+    font-family: Phosphate-Inline;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(16,16,16,0.73);
+    text-align: left;
+    margin-left: 40px;
+}
+
+.login-form{
+    margin-left: 1060px;
+}
+
+.create-account-form{
+    margin-left: 1060px;
+}
+
+.login-username-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    
+}
+
+.login-password-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.sign-in-button{
+    background: rgba(236,185,0,0.18);
+    border: 1px solid #979797;
+    font-family: Phosphate-Inline;
+    font-size: 20px;
+    color: rgba(0,0,0,0.73);
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.create-username-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.create-password-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.create-first-name-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.create-last-name-input{
+    background: rgba(197,155,0,0.07);
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.create-account-button{
+    background: rgba(236,185,0,0.18);
+    border: 1px solid #979797;
+    font-family: Phosphate-Inline;
+    font-size: 20px;
+    color: rgba(0,0,0,0.73);
+    text-align: left;
+    margin-bottom: 60px;
+}
