@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import HomeScreenContainer from "./HomeScreenContainer";
 import FavoriteRecipesContainer from "./FavoriteRecipesContainer";
 import { Route, Switch } from 'react-router-dom';

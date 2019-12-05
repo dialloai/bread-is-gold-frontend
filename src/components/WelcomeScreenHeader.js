@@ -1,5 +1,4 @@
 import React from 'react';
-import '../WelcomeContainer.css'
 
 const WelcomeScreenHeader = () => {
     return (

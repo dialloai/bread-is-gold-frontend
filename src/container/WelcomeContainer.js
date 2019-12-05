@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import WelcomeScreenHeader from "../components/WelcomeScreenHeader";
+import '../WelcomeContainer.css'
+import { Link } from "react-router-dom";
 
 class WelcomeContainer extends Component {
     render() {
@@ -28,7 +30,9 @@ class WelcomeContainer extends Component {
                         To Learn More about “Food For soul,” click the logo below.<br/>
                         Otherwise, click continue to see your account.<br/>
                     </p>
+                    <Link to='/favorites'>
                     <button className='continue-button'>Continue</button>
+                    </Link>
                 </div>
             </div>
         );
