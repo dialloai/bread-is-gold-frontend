@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import NavBar from "../components/NavBar";
 import FavoriteRecipeList from "../components/FavoriteRecipeList";
+import '../FavoriteRecipesContainer.css'
+import {Link} from "react-router-dom";
 
 class FavoriteRecipesContainer extends Component {
 
@@ -34,7 +36,12 @@ class FavoriteRecipesContainer extends Component {
 
             <div>
                 <NavBar/>
-                <FavoriteRecipeList userFavorites={this.state.userFavorites}/>
+                <div className='favorite-recipes-container-div'>
+                    <div>
+                        <h3 className='favorite-recipes-header'>My Favorite Recipes</h3>
+                    </div>
+                    <FavoriteRecipeList userFavorites={this.state.userFavorites}/>
+                </div>
             </div>
 
         );

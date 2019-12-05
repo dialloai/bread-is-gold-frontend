@@ -1,4 +1,4 @@
-.all-recipes-container-div{
+.favorite-recipes-container-div{
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://media.cntraveller.in/wp-content/uploads/2017/11/Beautiful-psychedelic-spin-painted-veal-not-flame-grilled_credits-CALLO-ALBANESE-SUEO-1366x768.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -6,19 +6,7 @@
     height: 80vh;
 }
 
-.all-recipes-list-div{
-    font-family: Didot;
-    font-size: 13px;
-    color: #000000;
-    text-align: left;
-}
-
-.all-recipes-list a{
-    list-style: none;
-    text-decoration: none;
-}
-
-.recipes-list-header{
+.favorite-recipes-header{
     font-weight: normal;
     text-align: center;
     font-family: Didot;
@@ -26,7 +14,19 @@
     color: #000000;
 }
 
-.each-recipe-item{
+.favorites-list-div{
+    font-family: Didot;
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+}
+
+.favorites-list a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.each-favorite-recipe{
     color: #000000;
     font-weight: bold;
 }
