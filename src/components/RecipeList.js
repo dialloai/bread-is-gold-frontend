@@ -8,7 +8,7 @@ const RecipeList = props => {
     return (
         <div>
             <Link to={`recipes/${id}`}>
-                <li recipeInfo={props}>{recipe_name}</li>
+                <li>{recipe_name}</li>
             </Link>
         </div>
     );

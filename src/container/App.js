@@ -5,9 +5,10 @@ import FavoriteRecipesContainer from "./FavoriteRecipesContainer";
 import { Route, Switch } from 'react-router-dom';
 import ChefsContainer from "./ChefsContainer";
 import AllRecipesContainer from "./AllRecipesContainer";
-import RecipeDetails from "../components/RecipeDetails";
+import RecipeDetailsContainer from "./RecipeDetailsContainer";
 
 function App() {
+
   return (
     <div className="App">
         <Switch>
@@ -15,7 +16,7 @@ function App() {
             <Route exact path='/favorites' component={FavoriteRecipesContainer} />
             <Route exact path='/chefs' component={ChefsContainer} />
             <Route exact path='/recipes' render={routerProps => <AllRecipesContainer {...routerProps}/>}/>
-            <Route exact path='/recipes/:id' component={RecipeDetails} />
+            <Route exact path='/recipes/:id' render={routerProps => <RecipeDetailsContainer {...routerProps}/>} />
         </Switch>
     </div>
   );
