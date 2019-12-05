@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom";
 
 class HomeScreenCreateAccountForm extends React.Component {
 
@@ -37,7 +37,9 @@ class HomeScreenCreateAccountForm extends React.Component {
                         <br/>
                         <input className='create-last-name-input' type="text" name="lastName" placeholder="lastName" onChange={this.updateAccountInformation}/>
                         <br/>
+                        <Link to ='/welcome'>
                         <button className='create-account-button'>Create Account</button>
+                        </Link>
                 </form>
             </div>
         )

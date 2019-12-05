@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from "../components/NavBar";
 import RecipeList from "../components/RecipeList";
+import '../AllRecipesContainer.css'
 import { Route } from "react-router-dom";
 
 
