@@ -1,0 +1,64 @@
+.nav-bar-div{
+    display: flex;
+    background: #F5F2EA;
+    border: 1px solid #979797;
+    height: 4rem;
+}
+
+.nav-bar-header{
+    font-family: Phosphate-Inline;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(16,16,16,0.73);
+    text-align: left;
+    flex-grow: 2;
+    margin-left: 3rem;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.chefs-nav-link{
+    font-family: Phosphate-Inline;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(16,16,16,0.73);
+    text-align: left;
+    /*margin-left: 180px;*/
+    flex-grow: 1;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.recipes-nav-link{
+    font-family: Phosphate-Inline;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(16,16,16,0.73);
+    text-align: left;
+    /*margin-left: 80px;*/
+    flex-grow: 1;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.favorites-nav-link{
+    font-family: Phosphate-Inline;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(16,16,16,0.73);
+    text-align: left;
+    /*margin-left: 80px;*/
+    flex-grow: 1;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.search-bar {
+    flex-grow: 1;
+    height: 30px;
+    width: 250px;
+    margin-top: 12px;
+    margin-right: 1.5rem;
+    font-size: 20px;
+}
+

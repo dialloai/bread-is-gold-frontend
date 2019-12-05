@@ -1,8 +1,9 @@
-body{
+.everything-below-header{
     background-image: url("https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/crop_3_2/public/original_01-Massimo-Bottura-Caesar-Salad-in-Bloom.jpg?itok=hQ4vrptl");
     background-size: 130% 120%;
     background-repeat: no-repeat;
     background-position: top;
+    height: 89vh
 }
 
 .home-screen-header-div{
@@ -15,9 +16,11 @@ body{
     font-size: 27px;
     color: rgba(16,16,16,0.73);
     text-align: right;
-    margin-right: 40px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-right: 55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .home-screen-header{
@@ -30,11 +33,11 @@ body{
 }
 
 .login-form{
-    margin-left: 1060px;
+    margin-left: 1040px;
 }
 
 .create-account-form{
-    margin-left: 1060px;
+    margin-left: 1040px;
 }
 
 .login-username-input{
@@ -62,6 +65,7 @@ body{
     color: rgba(0,0,0,0.73);
     text-align: left;
     margin-bottom: 60px;
+    margin-left: 125px;
 }
 
 .create-username-input{
@@ -103,5 +107,6 @@ body{
     font-size: 20px;
     color: rgba(0,0,0,0.73);
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
+    margin-left: 35px;
 }

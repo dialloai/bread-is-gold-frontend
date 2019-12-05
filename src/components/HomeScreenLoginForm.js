@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 class HomeScreenLoginForm extends React.Component {
 
@@ -30,7 +31,9 @@ class HomeScreenLoginForm extends React.Component {
                 <br/>
                 <input className='login-password-input' type="password" name="password" placeholder="password" onChange={this.handleChange}/>
                 <br/>
-                <button className='sign-in-button'>Sign In</button>
+                <Link to='/favorites'>
+                    <button className='sign-in-button'>Sign In</button>
+                </Link>
                 <br/>
             </form>
         )
