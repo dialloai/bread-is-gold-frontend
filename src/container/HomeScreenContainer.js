@@ -19,7 +19,7 @@ class HomeScreenContainer extends React.Component {
             <body>
                 <HomeScreenHeader/>
                 <div className='everything-below-header'>
-                <p className='slogan'> Chef's Plate's at Your Dining Table</p>
+                <p className='slogan'> Chef's Plate's at Your<br/>Dining Table</p>
                 <HomeScreenLoginForm confirmLogin={this.confirmLogin}/>
                 <HomeScreenCreateAccountForm createAccount={this.createAccount} />
                 </div>

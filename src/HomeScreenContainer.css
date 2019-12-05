@@ -16,11 +16,11 @@
     font-size: 27px;
     color: rgba(16,16,16,0.73);
     text-align: right;
-    margin-right: 55px;
+    margin-right: 80px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .home-screen-header{
@@ -33,11 +33,13 @@
 }
 
 .login-form{
-    margin-left: 1040px;
+    text-align: right;
+    margin-right: 80px;
 }
 
 .create-account-form{
-    margin-left: 1040px;
+    text-align: right;
+    margin-right: 80px;
 }
 
 .login-username-input{
