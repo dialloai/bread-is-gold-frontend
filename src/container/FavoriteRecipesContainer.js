@@ -21,7 +21,7 @@ class FavoriteRecipesContainer extends Component {
             .then(userData => {
                 // TODO: Filter based on user passed in
                 favorites = userData.filter(entry => entry.user.username ==='cpark')
-                    .map(entry => entry.recipe.recipe_name)
+                    .map(entry => entry)
                 this.setState({
                     userFavorites: favorites
                 })
