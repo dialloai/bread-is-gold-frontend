@@ -28,13 +28,19 @@ class AllRecipesContainer extends Component {
 
     render() {
         return (
-            <div className='all-recipes-container-div'>
+            <div>
                 <NavBar/>
-                <ul className='all-recipes-list'>
-                    {this.state.allRecipes.map(recipe =>
-                        <RecipeList {...recipe} key={recipe.id} />)}
-
-                </ul>
+                <div className='all-recipes-container-div'>
+                    <div className='recipes-list-header-div'>
+                        <h2 className='recipes-list-header'>Recipes List</h2>
+                    </div>
+                    <div className='all-recipes-list-div'>
+                        <ul className='all-recipes-list'>
+                            {this.state.allRecipes.map(recipe =>
+                            <RecipeList {...recipe} key={recipe.id} />)}
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         );
