@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import FavoriteRecipeList from "../components/FavoriteRecipeList";
 import '../FavoriteRecipesContainer.css'
 import {Link} from "react-router-dom";
+import SignOut from "../components/SignOut";
 
 class FavoriteRecipesContainer extends Component {
 
@@ -42,6 +43,7 @@ class FavoriteRecipesContainer extends Component {
                     </div>
                     <FavoriteRecipeList userFavorites={this.state.userFavorites}/>
                 </div>
+                <SignOut/>
             </div>
 
         );

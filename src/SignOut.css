@@ -1,0 +1,16 @@
+.sign-out-button-div{
+    /*background: #dce1df;*/
+    text-align: right;
+    padding: 0px 10px 10px;
+}
+
+.sign-out-button{
+    background: rgba(236,185,0,0.18);
+    border: 1px solid #979797;
+    font-family: Phosphate-Inline;
+    font-size: 20px;
+    color: rgba(0,0,0,0.73);
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 125px;
+}

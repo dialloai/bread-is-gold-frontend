@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import NavBar from "../components/NavBar";
 import ChefCards from "../components/ChefCards";
+import SignOut from "../components/SignOut";
+import '../SignOut.css'
 
 class ChefsContainer extends Component {
 
@@ -27,6 +29,7 @@ class ChefsContainer extends Component {
                 <div className='chef-card'>
                 {this.state.allChefs.map(chef => <ChefCards {...chef}/>)}
                 </div>
+                <SignOut/>
             </div>
         );
     }

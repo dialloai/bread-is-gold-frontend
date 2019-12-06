@@ -3,6 +3,8 @@ import NavBar from "../components/NavBar";
 import RecipeList from "../components/RecipeList";
 import '../AllRecipesContainer.css'
 import { Route } from "react-router-dom";
+import SignOut from "../components/SignOut";
+import '../SignOut.css'
 
 
 class AllRecipesContainer extends Component {
@@ -39,6 +41,9 @@ class AllRecipesContainer extends Component {
                             {this.state.allRecipes.map(recipe =>
                             <RecipeList {...recipe} key={recipe.id} />)}
                         </ul>
+                    </div>
+                    <div className='sign-out-button-div'>
+                        <SignOut/>
                     </div>
                 </div>
             </div>

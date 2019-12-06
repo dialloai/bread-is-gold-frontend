@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from "../components/NavBar";
 import RecipeDetails from "../components/RecipeDetails";
+import SignOut from "../components/SignOut";
 
 
 class RecipeDetailsContainer extends Component {
@@ -38,6 +39,7 @@ class RecipeDetailsContainer extends Component {
             <div>
                 <NavBar/>
                 <RecipeDetails renderRecipe={this.state.currentRecipe} allRecipes={this.state.allRecipes}/>
+                <SignOut/>
             </div>
         );
     }
