@@ -1,0 +1,37 @@
+.recipe-show-page{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://media.cntraveller.in/wp-content/uploads/2017/11/Memoryofamortadellasandwich_creditsPaoloTerzi.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    font-family: Didot;
+}
+
+.add-favorite-button{
+    background: #FCF3D2;
+    border: 1px solid #ABABAB;
+    box-shadow: 0 4px 0 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.recipe-detail-name-header{
+    text-align: center;
+}
+
+.recipe-detail-ingredients-header{
+    margin-left: 30px;
+}
+
+.recipe-detail-directions-header{
+    margin-left: 30px;
+}
+
+.recipe-detail-ingredients-list{
+    margin-left: 30px;
+}
+
+.recipe-detail-directions-list{
+    margin-left: 30px;
+}

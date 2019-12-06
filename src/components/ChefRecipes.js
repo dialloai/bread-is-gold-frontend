@@ -7,22 +7,25 @@ const ChefRecipes = props => {
         return (
             <div>
                 <div>
-                    <h2>Chef {first_name} {last_name}'s Recipe List</h2>
+                    <div className='chef-recipe-page-header-div'>
+                        <h2 className='chef-recipe-page-header'>Chef {first_name} {last_name}'s Recipe List</h2>
+                    </div>
+                    <div className='chef-and-recipe-show-page-card'>
+                        <div>
+                            <img className='chef-recipe-chef-img' alt={`Chef ${first_name} ${last_name}`} src={chef_image}/>
+                        </div>
+
+                        <div>
+                            <p className='chef-recipe-chef-description'>{chef_background}</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
-                    <img className='chef-recipe-chef-img' alt={`Chef ${first_name} ${last_name}`} src={chef_image}/>
-                </div>
-
-                <div>
-                    <p className='chef-recipe-chef-description'>{chef_background}</p>
-                </div>
-
-                <div>
-                    <ul>
+                <div className='chefs-all-recipe-div'>
+                    <ul className='chefs-all-recipe'>
                         {recipes ? (recipes.map(recipe =>
                             <Link to={`/recipes/${recipe.id}`}>
-                                <li className='each-recipe-item'>{recipe.recipe_name}</li>
+                                <li className='each-chef-recipe-item'>{recipe.recipe_name}</li>
                             </Link>
                             )): null}
                     </ul>

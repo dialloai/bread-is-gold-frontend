@@ -32,7 +32,7 @@ class NavBar extends React.Component{
 
                 <NavLink className='favorites-nav-link' to='/favorites'>My Favorites</NavLink>
 
-                <Search className='search-bar' onChange={this.search}/>
+                <Search className='search-bar' onChange={this.props.search}/>
 
             </div>
         )

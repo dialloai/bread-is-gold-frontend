@@ -14,7 +14,8 @@ class AllRecipesContainer extends Component {
         super()
 
         this.state = {
-            allRecipes: []
+            allRecipes: [],
+            search: ''
         }
     }
 
@@ -28,10 +29,20 @@ class AllRecipesContainer extends Component {
             })
     }
 
+    handleSearch = (event) => {
+        this.setState( {
+            search: event.target.value
+        })
+    }
+
+    filterSearch = () => {
+        return this.state.allRecipes.filter(recipe => recipe.recipe_name === this.state.search)
+    }
+
     render() {
         return (
             <div>
-                <NavBar/>
+                <NavBar search={this.handleSearch} />
                 <div className='all-recipes-container-div'>
                     <div className='recipes-list-header-div'>
                         <h2 className='recipes-list-header'>Recipes List</h2>
@@ -40,6 +51,10 @@ class AllRecipesContainer extends Component {
                         <ul className='all-recipes-list'>
                             {this.state.allRecipes.map(recipe =>
                             <RecipeList {...recipe} key={recipe.id} />)}
+                            {/*{this.state.allRecipes.filter(recipe => recipe.name === this.state.search*/}
+                            {/*    <RecipeList {...recipe} key={recipe.id} />)}*/}
+                            {/*{this.filterSearch().map(recipe => <RecipeList {...recipe} key={recipe.id} />)}*/}
+
                         </ul>
                     </div>
                     <div className='sign-out-button-div'>
@@ -51,5 +66,6 @@ class AllRecipesContainer extends Component {
         );
     }
 }
+
 
 export default AllRecipesContainer;

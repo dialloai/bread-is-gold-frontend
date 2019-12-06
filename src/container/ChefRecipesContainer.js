@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from "../components/NavBar";
 import ChefRecipes from "../components/ChefRecipes";
+import '../ChefRecipesContainer.css'
 
 class ChefRecipesContainer extends Component {
 
@@ -31,7 +32,7 @@ class ChefRecipesContainer extends Component {
         return (
             <div>
                 <NavBar/>
-                <div>
+                <div className='chef-recipes-container-div'>
                     <ChefRecipes currentChef={this.state.currentChef} allChef={this.state.allChefs}/>
                 </div>
             </div>

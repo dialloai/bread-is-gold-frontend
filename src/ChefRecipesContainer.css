@@ -1,0 +1,48 @@
+.chef-recipes-container-div{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://media.cntraveller.in/wp-content/uploads/2017/11/Beautiful-psychedelic-spin-painted-veal-not-flame-grilled_credits-CALLO-ALBANESE-SUEO-1366x768.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    font-family: Didot;
+
+    /*display: grid;*/
+    /*grid-template-columns: 50% 50%;*/
+    /*grid-template-rows: 10% auto;*/
+    /*grid-template-areas:*/
+    /*        'header header'*/
+    /*        'card list';*/
+}
+
+.chef-and-recipe-show-page-card{
+    /*grid-area: card;*/
+    font-weight: bold;
+    font-size: 15px;
+    margin: 50px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.chef-recipe-chef-img{
+    width: 350px;
+    height: 350px;
+}
+
+.chef-recipe-page-header{
+    /*grid-area: header;*/
+    text-align: center;
+}
+
+.chefs-all-recipe-div{
+    text-align: center;
+}
+
+.chefs-all-recipe a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.each-chef-recipe-item{
+    color: #000000;
+    font-weight: bold;
+}
