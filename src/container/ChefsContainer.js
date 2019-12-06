@@ -22,9 +22,11 @@ class ChefsContainer extends Component {
 
     render() {
         return (
-            <div>
+            <div className='chefs-container'>
                 <NavBar/>
+                <div className='chef-card'>
                 {this.state.allChefs.map(chef => <ChefCards {...chef}/>)}
+                </div>
             </div>
         );
     }
