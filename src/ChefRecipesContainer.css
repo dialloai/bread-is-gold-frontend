@@ -18,9 +18,9 @@
     /*grid-area: card;*/
     font-weight: bold;
     font-size: 15px;
-    margin: 50px auto;
+    margin-left: 140px;
     max-width: 400px;
-    text-align: center;
+    text-align: left;
 }
 
 .chef-recipe-chef-img{
@@ -34,7 +34,8 @@
 }
 
 .chefs-all-recipe-div{
-    text-align: center;
+    text-align: right;
+    margin-right: 140px;
 }
 
 .chefs-all-recipe a{
