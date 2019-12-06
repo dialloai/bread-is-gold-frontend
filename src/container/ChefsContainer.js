@@ -27,7 +27,7 @@ class ChefsContainer extends Component {
             <div className='chefs-container'>
                 <NavBar/>
                 <div className='chef-card'>
-                {this.state.allChefs.map(chef => <ChefCards {...chef}/>)}
+                    {this.state.allChefs.map(chef => <ChefCards {...chef}/>)}
                 </div>
                 <SignOut/>
             </div>

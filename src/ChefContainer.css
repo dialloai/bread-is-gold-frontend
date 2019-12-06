@@ -34,7 +34,13 @@
     text-align: center;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .chef-name{
+    color: #000000;
+    font-weight: normal;
     background: white;
     padding: 6px 15px 10px;
     position: relative;
@@ -47,9 +53,13 @@
 }
 
 .chef-description{
+    text-decoration: none;
     text-align: justify;
     padding: 0px 10px 10px;
+    color: #000000;
+    font-weight: normal;
 }
+
 
 
 

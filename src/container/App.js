@@ -6,6 +6,7 @@ import ChefsContainer from "./ChefsContainer";
 import AllRecipesContainer from "./AllRecipesContainer";
 import RecipeDetailsContainer from "./RecipeDetailsContainer";
 import WelcomeContainer from "./WelcomeContainer";
+import ChefRecipesContainer from "./ChefRecipesContainer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route exact path='/chefs' component={ChefsContainer} />
             <Route exact path='/recipes' render={routerProps => <AllRecipesContainer {...routerProps}/>}/>
             <Route exact path='/recipes/:id' render={routerProps => <RecipeDetailsContainer {...routerProps}/>} />
+            <Route exact path='/recipes/chefs/:chefId' render={routerProps => <ChefRecipesContainer {...routerProps}/>} />
         </Switch>
     </div>
   );
